@@ -15,7 +15,7 @@
     background-color: #472424;
     width: 1680px;
     height: 50px;
-    padding-top: 13px;
+    padding-top: 11px;
     padding-left: 284px;
 }
 
@@ -30,10 +30,51 @@
     margin: 0 19px;
 }
 
-.basket{
-    margin-left: 482px;
+.left_pane a:hover {
+    color: #ff7373;
 }
 
-.basket a{
-    margin-left: 10px;
+.basket {
+    margin-left: 512px;
+    margin-right: 41px;
+}
+
+.basket a:hover {
+    color: #dcc5b8;
+}
+
+.autorisation a {
+    margin: 0%;
+}
+
+.autorisation .login {
+    box-sizing: border-box;
+    width: 91px;
+    height: 50px;
+    background-color: #472424;
+    padding: 16px 20px;
+
+}
+
+.autorisation .login:hover {
+    background-color: #ff7373;
+    width: 91px;
+    height: 50px;
+    padding: 16px 20px;
+}
+
+.autorisation .register {
+    box-sizing: border-box;
+    width: 91px;
+    height: 50px;
+    background-color: #472424;
+    padding: 16px 20px;
+    margin-left: -4.5px;
+}
+
+.autorisation .register:hover {
+    background-color: #ff7373;
+    width: 91px;
+    height: 50px;
+    padding: 16px 20px;
 }
